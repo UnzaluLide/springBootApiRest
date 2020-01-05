@@ -1,0 +1,10 @@
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Kimetz', 'Zenitagoia', 'kzenitagoia@gmail.com', '1984-02-02');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Maddi', 'Bilbao', 'mbilbao@gmail.com', '1994-09-21');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Lur', 'Agirre', 'lagirre@gmail.com', '1987-07-17');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Garazi', 'Garmendia', 'ggarmendia@gmail.com', '1987-09-02');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Lide', 'Unzalu', 'lunzalu@gmail.com', '1987-09-17');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Onintza', 'Enbeita', 'oenbeita@gmail.com', '1979-05-19');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Aritz', 'Aranburu', 'aaranburu@gmail.com', '1987-06-02');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Mikel', 'Garitaonaindia', 'mgari@gmail.com', '1984-04-04');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Arantza', 'Orbegozo', 'kzenitagoia@gmail.com', '1967-08-19');
+INSERT INTO `db_springboot_backend`.`clientes` (`nombre`, `apellido`, `email`, `fecha`) VALUES ('Lidia', 'Gonzalo', 'lgonzalo@gmail.com', '1987-09-17');
