@@ -36,6 +36,12 @@ public class Cliente implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date fecha;
 
+    //antes de que se haga un save en la bbdd incluir la fecha de creación
+    @PrePersist
+    public void prePersist(){
+         fecha= new Date();
+    }
+
     public static long getSerialVersionUID() {
         return serialVersionUID;
     }
