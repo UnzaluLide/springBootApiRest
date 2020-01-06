@@ -23,4 +23,27 @@ public class ClienteServiceImpl implements ClienteService{
     public List<Cliente> findAll() {
         return (List<Cliente>) clienteDao.findAll();
     }
+    /**
+     *
+     * @param id
+     * @return findById -->método de CrudRepository devuelve un Optional.
+     * Si no encuentra el objeto de tipo Cliente retorna un null.
+     */
+    @Override
+    @Transactional(readOnly = true)
+    public Cliente findById(Long id) {
+        return clienteDao.findById(id).orElse(null);
+    }
+
+    @Override
+    @Transactional
+    public Cliente save(Cliente cliente) {
+        return clienteDao.save(cliente);
+    }
+
+    @Override
+    @Transactional
+    public void delete(Long id) {
+        clienteDao.deleteById(id);
+    }
 }
